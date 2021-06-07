@@ -1,0 +1,113 @@
+#barraBuscar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  #logo{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-stretch: wider;
+  
+  }
+  
+  nav > a {
+    text-decoration: none;
+    color:rgb(252, 252, 252);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+  }
+  
+  nav > a:hover {
+    color:rgb(206, 6, 6);
+  }
+
+  footer {
+    background-color: rgb(150, 2, 2);
+    color: rgb(0, 0, 0);
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer > p{
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+
+  #contenedor2{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  #titulo{
+    margin-bottom: 2rem;
+  }
+  
+  #titulo > h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Kristi', cursive;
+    font-weight: bold; 
+    color: rgb(175, 0, 0);
+    font-size: 9.0rem;
+    font-weight: 700;
+  }
+  
+  #contenedor3{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  
+  #ladoizquierdo > p{
+    text-transform: uppercase;
+    font-family: 'Monserrat',sans-serif;
+    color: rgb(185, 184, 184);
+    text-align: center;
+    font-size: 1.0rem;
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+    margin-bottom: 4rem;
+   
+  
+  }
+  
+  #imagen1 > img {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: block;
+    margin: auto;
+  }
+  
+  .imagen1{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: block;
+    margin: auto;
+  }
+  
+  .imagen1 > p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .imagen1 > img{
+    max-width: 100%;
+  }

@@ -1,0 +1,105 @@
+.btn-negro{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    display: inline-block;
+    align-self: center;
+  }
+
+  #barraBuscar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  #logo{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-stretch: wider;
+  
+  }
+  
+  nav > a {
+    text-decoration: none;
+    color:rgb(7, 7, 7);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+  }
+  
+  nav > a:hover {
+    color:rgb(180, 3, 3);
+  }
+
+  #contenedor{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #contenedor > p {
+    text-transform: capitalize;
+    font-family: 'Monserrat',sans-serif;
+    color: rgb(3, 3, 3);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold; 
+  }
+  
+  #contenedor > h1 {
+    text-transform: capitalize;
+    font-family: 'Kristi', cursive;
+    color: rgb(235, 39, 39);
+    font-size: 9.0rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold; 
+  }
+  
+  .espacio{
+    width: 4.5rem;
+    border-color: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+  }
+  
+  
+  #contenedor1{
+    background-color: rgb(240, 239, 239);
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+  }
+  
+  #contenedor2{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  #titulo{
+    margin-bottom: 2rem;
+  }
+  
+  #titulo > h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Monserrat',sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }

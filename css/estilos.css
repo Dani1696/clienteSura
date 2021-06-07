@@ -1,0 +1,287 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Noto Sans',sans-serif;
+  color: black;
+}
+
+.btn-verde{
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgb(127, 245, 127);
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  display: inline-block;
+  align-self: center;
+}
+
+.btn-violeta{
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgb(186, 103, 219);
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  display: inline-block;
+  align-self: center;
+
+}
+
+.frase{
+  text-align: center;
+  font-family: 'Calligraffitti', cursive;
+  color: rgb(104, 89, 103);
+  font-size: 1.0rem;
+}
+
+
+#banner{
+  background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(38,2,2,0.446)), url(img/hola.png) no-repeat center/cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+}
+
+#barraBuscar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#logo{
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-stretch: wider;
+
+}
+
+nav > a {
+  text-decoration: none;
+  color:white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+nav > a:hover {
+  color:rgb(231, 179, 208);
+}
+
+#contenedor{
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#contenedor > p {
+  text-transform: capitalize;
+  font-family: 'Monserrat',sans-serif;
+  color: rgb(209, 156, 182);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold; 
+}
+
+#contenedor > h1 {
+  text-transform: capitalize;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(245, 228, 236);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold; 
+}
+
+.espacio{
+  width: 4.5rem;
+  border-color: rgb(194, 127, 183);
+  display: block;
+  margin: auto;
+}
+
+
+#contenedor > h1 {
+  font-family: 'Monserrat',sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+#contenedor1{
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+#contenedor2{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#titulo{
+  margin-bottom: 2rem;
+}
+
+#titulo > h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Tillana', cursive;
+  color: rgb(151, 81, 81);
+  font-size: 4.0rem;
+  font-weight: 700;
+}
+
+#contenedor3{
+  background-color: rgb(255, 239, 254);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+#ladoizquierdo > p{
+  text-transform: uppercase;
+  font-family: 'Monserrat',sans-serif;
+  text-align: center;
+  font-size: 1.0rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
+}
+
+
+#imagen1 > img {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  display: block;
+  margin: auto;
+}
+
+.imagen1{
+  padding-right: 1rem;
+  padding-left: 1rem;
+  display: block;
+  margin: auto;
+}
+
+.imagen1 > p{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.imagen1 > img{
+  max-width: 100%;
+}
+
+#banner2{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.905)), url("img/banner1.png");
+  background-repeat: no-repeat;
+  background-position-y: center/cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#contenedor5{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.mitad{
+  width: 50%;
+}
+
+#parteIzquiera > h3 {
+  text-transform: uppercase;
+  font-family: 'Tillana', cursive;
+  color: rgb(219, 210, 219);
+  font-size: 4.0rem;
+  font-weight: 700;
+  margin-top: 6.0rem;
+  margin-bottom: 1.5rem;
+}
+
+#parteDerecha > ul {
+  margin-bottom: 4rem;
+  font-family: 'Delius Unicase', cursive;
+  color: rgb(207, 192, 207);
+  font-size: 1.5rem;
+
+}
+
+#proyectos{
+  background-color: rgb(255, 239, 254);
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 5rem;
+  padding-left: 7rem;
+  padding-bottom: 5rem;
+}
+
+#ladoizquierdo {
+  flex: 1;
+}
+
+#ladoizquierdo > h3 {
+  text-transform: uppercase;
+  font-family: 'Tillana', cursive;
+  color: rgb(151, 81, 81);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+#ladoizquierdo > p {
+  margin-bottom: 4rem;
+  font-family: 'Tillana', cursive;
+}
+
+#ladoDerecho {
+  flex: 2;
+  display: grid;
+  gap: 15px 10px;
+  justify-items: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
